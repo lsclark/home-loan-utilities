@@ -2,6 +2,8 @@
 
 A tool to help optimise the term and amount when moving from a variable to a split (variable and fixed) loan. It models the reduction of the loan balances (both fixed and variable portions) over the life of the split loan.
 
+![Example Screenshot](Screenshot.png "The numbers are all illustrative")
+
 ## Suggested Usage
 
 ### Setup
