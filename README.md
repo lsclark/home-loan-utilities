@@ -22,15 +22,14 @@ This tool should not be relied upon for (and should not be considered as providi
 ### What's modelled
 
 These are only the highlights, there's a few things missing that are also done:
-- The table models the reduction in loan balance each quarter. The fixed portion reduces by the fixed repayments, whilst the variable assumes all income is put into an offset account. At the end of the fixed period, all the balance is shifted to the variable part.
-- The variable only loan is modelled in parallel, allowing the cost of doing nothing to be predicted
+- The table models the reduction in loan balance each quarter. The fixed portion reduces by the fixed repayments (minus interest), whilst the variable assumes all income is put into an offset account. At the end of the fixed period, all the balance is shifted to the variable part.
+- The variable only loan is modelled in parallel, allowing the cost of doing nothing to be predicted. The variable rate is the same as for the split loan.
+- Changes in the variable rate can be predicted (be sure to set cell B11 to 0, otherwise it is assumed to be constant).
 - Earnings per quarter can be reduced by a multiplier, allowing modelling of future life events which may impact earning ability
 - Interest for the fixed portion will be reduced by up to the value of the maximum repayment if the variable portion has been completely offset 
 
 ### What's not
 
-- The variable rate is assumed to be constant too, including when the fixed period ends
-- The calculations assume the fixed rate is less than the variable rate (a saving has to be made)
 - The sheet assumes that earnings are always sufficient to cover the variable and fixed repayments. This means that only fixed repayments are modelled.
 - The future
 
