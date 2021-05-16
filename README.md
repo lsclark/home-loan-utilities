@@ -1,6 +1,6 @@
 # Split Loan Modelling
 
-A tool to help optimise the term and amount when moving from a variable to a split (variable and fixed) loan. It models the reduction of the loan balances (both fixed and variable portions) over the life of the split loan.
+A tool to help optimise the term and amount when moving from a variable to a split (variable and fixed) loan. It models the reduction of the loan balances (both fixed and variable portions) over the life of the split loan. Most of the online calculators assume you'll only pay the set repayments to last the full term. This helps model if you want the period to be shorter by paying more (with a fully offset variable portion).
 
 ![Example Screenshot](Screenshot.png "The numbers are all illustrative")
 
